@@ -1,2 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-.venv
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Flask / instance
+instance/
+*.db
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OpenCode workspace (keep .gitkeep)
+.workspace/*
+!.workspace/.gitkeep
+
+# OpenCode config (keep .opencode/reference/ for PRI)
+.opencode/*
+!.opencode/reference/
+
+# MCP runtime (allowed in root per governance, but ignore session state)
+.mcp-runtime.json
+docs-repo.project-mcp.json
